@@ -1,0 +1,15 @@
+{
+    "outboundSMSMessageRequest": {
+        "address": "tel:9997",
+        "senderAddress": "tel:9998",
+        "senderName": "Sender",
+        "receiptRequest": {
+            "notifyURL": "http://127.0.0.1:13444/jaxrs/outbound/notifications/notifyOutboundSmsDeliveryStatus",
+            "callbackData": ""
+        },
+        "outboundSMSTextMessage": {
+            "message": "Hello, world"
+        },
+        "clientCorrelator": "987654321"
+    }
+}
