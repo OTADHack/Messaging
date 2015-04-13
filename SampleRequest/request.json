@@ -1,4 +1,9 @@
 {
-  "addresses": ["tel:1234"],
-  "message": "Hello TAD from SOAP UI"
+	"outboundSMSMessageRequest":{
+		"address":"tel:1234",
+		"senderAddress":"tel:1111",
+		"outboundSMSTextMessage":{
+			"message":"Hello world"
+		}
+	}
 }

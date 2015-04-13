@@ -1,3 +1,5 @@
-<Response xmlns="http://ocsg.optaresolutions.com/rest/sms/messages">
-   <result>-7192605556592350607221505998205</result>
-</Response>
+{
+	"resourceReference":{
+		"resourceURL":"http://ocsg60.optaresolutions.com:8001/oneapi/1/smsmessaging/outbound/tel%3A1111/requests/-855216581124820979820"
+	}
+}
